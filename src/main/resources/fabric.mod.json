@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "vein-sim",
+	"version": "${version}",
+	"name": "Vein Sim",
+	"description": "Seed-based ore location predictor for use against anti-xray. Set the world seed with /VeinSim seed <seed>, then activate the overlay with X to see predicted ore positions.",
+	"authors": [
+		"CriminalPear"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/vein-sim/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.VeinSim"
+		],
+		"client": [
+			"name.modid.client.VeinSimClient"
+		]
+	},
+	"mixins": [
+		"vein-sim.mixins.json",
+		{
+			"config": "vein-sim.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
