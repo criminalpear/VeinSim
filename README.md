@@ -90,3 +90,5 @@ VeinSim reproduces Minecraft's generation algorithm block-for-block. Ores fall i
 | 1.21.11 | VeinSim for 1.21.11 |
 
 ---
+
+If you run into any issues or want to make a suggestion: [Form](https://docs.google.com/forms/d/e/1FAIpQLSejXIOFw99BLZ-qlh2arSHzjZpFGK1kiVnIAiajQ_Yj2S5BwA/viewform?usp=publish-editor)
